@@ -11,8 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stories Slider</title>
-    <script type="module" crossorigin src="assets/index.a98f9d96.js"></script>
-    <link rel="stylesheet" href="assets/index.471410c8.css">
+    <script type="module" crossorigin src="assets/index.185d4a5e.js"></script>
+    <link rel="stylesheet" href="assets/index.7d2bc10d.css">
   </head>
 
   <body>
@@ -108,7 +108,6 @@
                             <ul class="splide__list">
                               <li class="splide__slide">
                                 <img
-                                  class="swiper-slide inner-swiper-slide"
                                   src="images/slider-images/image-1.jpg"
                                   width="720"
                                   height="470"
@@ -117,7 +116,6 @@
                               </li>
                               <li class="splide__slide">
                                 <img
-                                  class="swiper-slide inner-swiper-slide"
                                   src="images/slider-images/image-2.jpg"
                                   width="720"
                                   height="470"
@@ -126,7 +124,6 @@
                               </li>
                               <li class="splide__slide">
                                 <img
-                                  class="swiper-slide inner-swiper-slide"
                                   src="images/slider-images/image-3.jpg"
                                   width="720"
                                   height="470"
@@ -135,7 +132,6 @@
                               </li>
                               <li class="splide__slide">
                                 <img
-                                  class="swiper-slide inner-swiper-slide"
                                   src="images/slider-images/image-4.jpg"
                                   width="720"
                                   height="470"
@@ -144,7 +140,6 @@
                               </li>
                               <li class="splide__slide">
                                 <img
-                                  class="swiper-slide inner-swiper-slide"
                                   src="images/slider-images/image-5.jpg"
                                   width="720"
                                   height="470"
@@ -155,58 +150,6 @@
                           </div>
                           <div class="splide__arrows"></div>
                         </section>
-                        <!-- <div class="slider swiper">
-                          <div class="swiper-wrapper">
-                            <img
-                              class="swiper-slide inner-swiper-slide"
-                              src="images/slider-images/image-1.jpg"
-                              width="720"
-                              height="470"
-                              alt=""
-                            />
-                            <img
-                              class="swiper-slide inner-swiper-slide"
-                              src="images/slider-images/image-2.jpg"
-                              width="720"
-                              height="470"
-                              alt=""
-                            />
-                            <img
-                              class="swiper-slide inner-swiper-slide"
-                              src="images/slider-images/image-3.jpg"
-                              width="720"
-                              height="470"
-                              alt=""
-                            />
-                            <img
-                              class="swiper-slide inner-swiper-slide"
-                              src="images/slider-images/image-4.jpg"
-                              width="720"
-                              height="470"
-                              alt=""
-                            />
-                            <img
-                              class="swiper-slide inner-swiper-slide"
-                              src="images/slider-images/image-5.jpg"
-                              width="720"
-                              height="470"
-                              alt=""
-                            />
-                          </div>
-                          <div class="slider__navigation">
-                            <div class="slider__controls">
-                              <a
-                                role="button"
-                                class="slider__control inner-swiper-button-prev"
-                              ></a>
-                              <a
-                                role="button"
-                                class="slider__control inner-swiper-button-next"
-                              ></a>
-                            </div>
-                            <div class="inner-swiper-pagination"></div>
-                          </div>
-                        </div> -->
                       </div>
                       <div class="cta-layer">
                         <div
@@ -423,7 +366,7 @@
                           <img
                             src="images/page-1-4-bg.jpg"
                             width="300"
-                            height="421"
+                            height="322"
                             alt=""
                             style="width: 100%"
                           />
@@ -432,9 +375,7 @@
                             src="images/page-1-4-gradient.png"
                             alt=""
                           />
-                          <div
-                            style="position: relative; z-index: 20; top: -90px"
-                          >
+                          <div style="position: relative; z-index: 20; top: 0">
                             <h1 class="page-title">В режиме “лайт”</h1>
                             <p class="page-text">
                               Насладитесь аэробикой или йогой на свежем воздухе,
@@ -487,14 +428,6 @@
                           alt=""
                           style="margin-bottom: 20px"
                         />
-                        <div class="sidebar__header">
-                          <img
-                            src="images/mainstreet-logo_white.svg"
-                            width="120"
-                            height="25"
-                            alt=""
-                          />
-                        </div>
                         <div style="display: flex; flex-direction: column">
                           <h1 class="page-title" style="margin-bottom: 7px">
                             Заказать звонок
@@ -547,7 +480,10 @@
                             с&nbsp;Пользовательским соглашением настоящего сайта
                           </span>
                           <div class="form-socials">
-                            <a role="button">
+                            <a
+                              role="button"
+                              onclick="window.location='https://t.me/OsnovaChatPlatformBot'"
+                            >
                               <img
                                 src="images/telegram-icon.svg"
                                 width="40"
@@ -2554,9 +2490,9 @@
                       >
                         <img
                           class="logo"
-                          src="images/mainstreet-logo.svg"
-                          width="151"
-                          height="32"
+                          src="images/very-logo.svg"
+                          width="89"
+                          height="23"
                           alt=""
                           style="margin-left: 0; margin-bottom: 20px"
                         />
@@ -2582,7 +2518,7 @@
                                 <span>от</span>
                                 <input
                                   id="bedrooms_from"
-                                  type="text"
+                                  type="num"
                                   placeholder="1"
                                   onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
                                 />
@@ -2591,7 +2527,7 @@
                                 <span>до</span>
                                 <input
                                   id="bedrooms_to"
-                                  type="text"
+                                  type="num"
                                   placeholder="5"
                                   onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
                                 />
@@ -2607,7 +2543,7 @@
                                 <span>до</span>
                                 <input
                                   id="cost"
-                                  type="text"
+                                  type="num"
                                   placeholder="70 078 296 ₽"
                                   onkeyup="this.value = this.value.replace(/[^\d]/g,'');"
                                 />
@@ -2648,6 +2584,7 @@
                                   type="text"
                                   placeholder="Ваше имя"
                                   required
+                                  style="position: relative; bottom: -3px"
                                 />
                               </div>
                             </div>
